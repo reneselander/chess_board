@@ -10,11 +10,21 @@
 
   <body>
 
-  <h3>Chess Board (Nested For Loop)</h3>
+  <center>
 
-   <table width="270px" cellspacing="0px" cellpadding="0px" border="1px">
+  <br>
 
-   <!-- cell 270px wide (8 columns x 60px) -->
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+  
+   <table cellspacing = "0px" cellpadding = "0px" border = "1px">
 
       <?php
 
@@ -34,7 +44,7 @@
 
 		  {
 
-          echo "<td height=30px width=30px bgcolor=#FFFFFF></td>";
+          echo "<td height = 60px width = 60px bgcolor = #FFFFFF></td>";
 
           }
 
@@ -42,7 +52,7 @@
 
 		  {
 
-          echo "<td height=30px width=30px bgcolor=#000000></td>";
+          echo "<td height = 60px width = 60px bgcolor = #000000></td>";
 
           }
 
@@ -55,6 +65,8 @@
           ?>
 
   </table>
+
+</center>
 
   </body>
 
